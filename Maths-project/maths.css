@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F4E0D5;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+.main-1{
+    display: flex;
+    justify-content: right;
+    padding: 20px 30px;
+    height: 50px;
+    width: 100%;
+    background-color: #F4E0D5;
+}
+.main-1 a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.mid{
+    width: 100%;
+}
+.mid img{
+    width: 100%;
+}
+.sec{
+    display: flex;
+}
+.secshow{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.secshow img{
+    width: 40%;
+    height: 500px;
+    padding: 70px;
+    margin-top: 60px;
+}
+.sec img{
+    width: 40%;
+    height: 500px;
+    padding: 70px;
+    margin-top: 60px;
+}
+.box{
+    padding: 70px;
+    margin-top: 100px;
+}
+.box h1{
+    font-size: 50px;
+}
+.box button{
+    padding: 12px;
+    margin: 20px 0;
+    background-color: blanchedalmond;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.cal{
+    text-align: center;
+}
+.cal-1{
+    margin-top: 150px;
+    padding: 100px;
+}
+#num1{
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+    margin: 5px;
+}
+#num2{
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+}
+#result{
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+}
+#add{
+    padding: 10px;
+    width: 30px;
+    background-color:aquamarine ;
+    margin: 5px;
+}
+#sub{
+    padding: 10px;
+    width: 30px;
+    background-color:aquamarine ;
+    margin: 5px;
+}
+#multi{
+    padding: 10px;
+    width: 30px;
+    background-color:aquamarine ;
+    margin: 5px;
+}
+#div{
+    padding: 10px;
+    width: 30px;
+    background-color:aquamarine ;
+    margin: 5px;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="maths.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="main-1">
+        <div class="nav">
+            <a href="home-1.html">Home</a>
+            <a href="table.html">Table</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="quiz.html">Quiz</a>
+        </div>
+    </div>
+    
+    <script>
+            var q1 = "Question 1: What is the Square of 55?";
+            var q2 = "Question 2: What is the Next Prime Number after 7 ?";
+            var q3 = "Question 3: Solve 23 + 3 ÷ 3";
+            var q4 = "Question 4: What is 5 to the power of 0?";
+            var q5 = "Question 5: What is 50 times of 8 is equal to?";
+            var q6 = "Question 6: What is the Cube of 11?";
+            var q7 = "Question 7: Add 8.563 and 4.8292.";
+            var q8 = "Question 8: I am an odd number. Take away one letter and I become even. What number am I?";
+            var q9 = "Question 9: Which 3 numbers have the same answer whether they’re added or multiplied together? (Write answer in this form. eg:- a,b,c)";
+            var q10 = "Question 10: There is a three-digit number. The second digit is four times as big as the third digit, while the first digit is three less than the second digit. What is the number?";
+
+            var correctAnswers = 0;
+            var ques1 = parseInt(prompt(q1));
+            if (ques1 == 3025) {
+                document.write("<h2>", q1, " </h2>", "<h3>Solution:- Your Answer is Right (" + ques1 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2> ", q1, "  </h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques1 + "). <br>Correct Answer is 3025</h3>");
+            }
+            var ques2 = parseInt(prompt(q2));
+            if (ques2 == 11) {
+                document.write("<h2>", q2, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques2 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q2, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques2 + "). <br>Correct Answer is 11</h3>");
+            }
+            var ques3 = parseInt(prompt(q3));
+            if (ques3 == 24) {
+                document.write("<h2>", q3, "</h2>", "<h3>Solution:-Your Answer is Right (" + ques3 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q3, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques3 + "). <br>Correct Answer is 24 </h3>");
+            }
+            var ques4 = parseInt(prompt(q4));
+            if (ques4 == 1) {
+                document.write("<h2>", q4, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques4 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q4, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques4 + "). <br>Correct Answer is 1.</h3>");
+            }
+            var ques5 = parseInt(prompt(q5));
+            if (ques5 == 400) {
+                document.write("<h2>", q5, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques5 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q5, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques5 + "). <br>Correct Answer is 400.</h3>");
+            }
+            var ques6 = parseInt(prompt(q6));
+            if (ques6 == 1331) {
+                document.write("<h2>", q6, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques6 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q6, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques6 + "). <br>Correct Answer is 1331.</h3>");
+            }
+            var ques7 = parseFloat(prompt(q7));
+            if (ques7 == 13.3922) {
+                document.write("<h2>", q7, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques7 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q7, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques7 + "). <br>Correct Answer is 13.3922</h3>");
+            }
+            var ques8 = prompt(q8);
+            if (ques8.toLocaleLowerCase() === "seven") {
+                document.write("<h2>", q8, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques8 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q8, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques8 + "). <br>Correct Answer is Seven.</h3>");
+            }
+            var ques9 = prompt(q9);
+            if (ques9 == "1,2,3") {
+                document.write("<h2>", q9, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques9 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q9, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques9 + "). <br>Correct Answer is 1,2,3. </h3>");
+            }
+            var ques10 = parseInt(prompt(q10));
+            if (ques10 == 141) {
+                document.write("<h2>", q10, "</h2>", "<h3>Solution:- Your Answer is Right (" + ques10 + ")</h3>");
+                correctAnswers++;
+            }
+            else {
+                document.write("<h2>", q10, "</h2>", "<h3>Solution:- Opps! Your Answer is Wrong(" + ques10 + "). <br>Correct Answer is 141.</h3>");
+            }
+            alert("You Doing Great Job... Click ok to see your Results");        
+    </script>
+</body>
+
+</html>
